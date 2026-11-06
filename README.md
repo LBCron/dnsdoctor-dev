@@ -1,4 +1,4 @@
-# dnsdoctor-dev
+# DNS Doctor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dnsdoctor-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dnsdoctor.dev/
+DNS Doctor provides a free DNS scanner and tools for domains, offering deterministic copy‑paste fixes for email authentication (SPF, DMARC, DKIM), MX, DNS health, blacklist checks, SSL expiry, global propagation, and reverse DNS lookups. It aims to help users quickly identify and resolve DNS issues without requiring sign‑up or payment.
+
+**Areas:** DNS · DNS Tools · Email Authentication · Free Service · Web Application
+
+## DNS Doctor on APIs.io
+
+Everything profiled for DNS Doctor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dnsdoctor-dev/](https://apis.io/providers/dnsdoctor-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [DNS Doctor Domains API](https://apis.io/apis/dnsdoctor-dev/dnsdoctor-dev-domains-api/) — The domains API from DNS Doctor — 5 operation(s) for domains.
+- [DNS Doctor Monitoring API](https://apis.io/apis/dnsdoctor-dev/dnsdoctor-dev-monitoring-api/) — The monitoring API from DNS Doctor — 4 operation(s) for monitoring.
+- [DNS Doctor Scan API](https://apis.io/apis/dnsdoctor-dev/dnsdoctor-dev-scan-api/) — The scan API from DNS Doctor — 5 operation(s) for scan.
+- [DNS Doctor Tools API](https://apis.io/apis/dnsdoctor-dev/dnsdoctor-dev-tools-api/) — The tools API from DNS Doctor — 3 operation(s) for tools.
+- [DNS Doctor Watch API](https://apis.io/apis/dnsdoctor-dev/dnsdoctor-dev-watch-api/) — The watch API from DNS Doctor — 5 operation(s) for watch.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dnsdoctor Dev Agentic Access](https://apis.io/agentic-access/dnsdoctor-dev/dnsdoctor-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DmarcUpgradeOut](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-dmarc-upgrade-out/)
+- [ReadinessOut](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-readiness-out/)
+- [ScanReportOut](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-scan-report-out/)
+- [WatchCreated](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-watch-created/)
+- [WatchPropagationIn](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-watch-propagation-in/)
+- [WatchStatus](https://apis.io/schemas/dnsdoctor-dev/dnsdoctor-dev-watch-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dnsdoctor Dev Context](https://apis.io/jsonld/dnsdoctor-dev/dnsdoctor-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DNS Doctor API Rules](https://apis.io/rules/dnsdoctor-dev/dnsdoctor-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dnsdoctor Dev Authentication](https://apis.io/security/dnsdoctor-dev/dnsdoctor-dev-authentication/)
+- [Dnsdoctor Dev Domain Security](https://apis.io/security/dnsdoctor-dev/dnsdoctor-dev-domain-security/)
+- [Dnsdoctor Dev Vulnerability Disclosure](https://apis.io/security/dnsdoctor-dev/dnsdoctor-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dnsdoctor Dev Plans Pricing](https://apis.io/plans/dnsdoctor-dev/dnsdoctor-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dnsdoctor.dev/)
+- [Documentation](https://dnsdoctor.dev/learn)
+- [API reference](https://dnsdoctor.dev/api/v1/docs)
+- [Pricing](https://dnsdoctor.dev/pricing)
+- [Sign up](https://dnsdoctor.dev/login)
+- [Trust centre](https://dnsdoctor.dev/scan/vanta.com)
+- [Terms of service](https://dnsdoctor.dev/terms)
+- [Privacy policy](https://dnsdoctor.dev/privacy)
+- [GitHub](https://github.com/dnsdoctor)
+
+## API Evangelist rating
+
+**Kin Score 60.1** — strong · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 81.1 |
+
+**Agent readiness 51.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dnsdoctor-dev/](https://apis.io/providers/dnsdoctor-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DNS Doctor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dnsdoctor-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
